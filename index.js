@@ -23,5 +23,6 @@ function notExposedVuln() {
 
 function newFunc() {
   const a = 1 + 1;
+  _.merge({}, {})
   return 1 + 1;
 }
